@@ -58,3 +58,111 @@ body {
 .left-section, .right-section {
     flex-shrink: 0; 
 }
+
+
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hero {
+
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url('assets/hero-bg.png') no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(1px);
+}
+
+.content {
+  position: relative;
+  color: white;
+  max-width: 900px;
+  padding: 20px;
+}
+
+.pill {
+    
+  display: inline-block;
+  background: white;
+  color: #187c3d;
+  padding: 6px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+h1 span {
+  color: #26bd57;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 35px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+}
+
+.buttons {
+
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+
+  padding: 14px 24px;
+  font-size: 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+.primary {
+  background: #26bd57;
+  color: white;
+}
+
+.primary:hover {
+  background: #1e9f48;
+}
+
+.outline {
+  border: 2px solid white;
+  color: white;
+}
+
+.outline:hover {
+  background: white;
+  color: black;
+}
