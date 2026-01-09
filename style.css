@@ -272,5 +272,88 @@ h1 {
 
 
 
+.brain-section {
+  width: 100%;
+  padding: 80px 0;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.brain-container {
+  width: 80%;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.brain-left img {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 12px;
+}
+
+.brain-right .brain-label {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #22c55e;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.brain-right .brain-title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.brain-right .brain-desc {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 25px;
+  max-width: 480px;
+}
+
+.brain-right .brain-list {
+  list-style: none;
+  padding: 0;
+}
+
+.brain-right .brain-list li {
+
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #222;
+  position: relative;
+  padding-left: 36px;
+  line-height: 1.4;
+}
+
+.brain-right .brain-list li::before {
+
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #22c55e; 
+  color: #22c55e; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+
+
+
 
 
